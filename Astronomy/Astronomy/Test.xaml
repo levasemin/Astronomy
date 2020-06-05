@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Astronomy.Test">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="0.75*"></RowDefinition>
+                <RowDefinition Height="0.75*"></RowDefinition>
+                <RowDefinition Height="0.75*"></RowDefinition>
+                <RowDefinition Height="0.75*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                <ColumnDefinition Width="0.9*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ImageButton x:Name="Photo" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></ImageButton>
+            <Label x:Name="Text" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="10, 4, 10, 3" FontSize="20" TextColor="#FFFFFF"></Label>
+            <CheckBox x:Name="ans1" Grid.Row="2" Grid.Column="0" Margin="10, 0, 3, 0" CheckedChanged="Ans1_CheckedChanged" Color="#7D3C98"></CheckBox>
+            <Label x:Name="anst1" Grid.Row="2" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FFFFFF" Style="{DynamicResource TitleStyle}"></Label>
+            <CheckBox x:Name="ans2" Grid.Row="3" Grid.Column="0" Margin="10, 0, 3, 0" CheckedChanged="Ans2_CheckedChanged" Color="#7D3C98"></CheckBox>
+            <Label x:Name="anst2" Grid.Row="3" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FFFFFF" Style="{DynamicResource TitleStyle}"></Label>
+            <CheckBox x:Name="ans3" Grid.Row="4" Grid.Column="0" Margin="10, 0, 3, 0" CheckedChanged="Ans3_CheckedChanged" Color="#7D3C98"></CheckBox>
+            <Label x:Name="anst3" Grid.Row="4" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FFFFFF" Style="{DynamicResource TitleStyle}"></Label>
+            <CheckBox x:Name="ans4" Grid.Row="5" Grid.Column="0" Margin="10, 0, 3, 0" CheckedChanged="Ans4_CheckedChanged" Color="#7D3C98"></CheckBox>
+            <Label x:Name="anst4" Grid.Row="5" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FFFFFF" Style="{DynamicResource TitleStyle}"></Label>
+            <Button x:Name="check" Text="Проверить" Grid.Row="6" Grid.ColumnSpan="2" FontSize="18" Margin="30, 0, 30, 20"></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

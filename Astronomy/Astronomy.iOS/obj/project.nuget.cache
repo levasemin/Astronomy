@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9868HYg03ua19HwT9QO6s4aKnQ6rR1/G+C4umQ7MyAM/KEY5PTz7o+FiK3Zal9Ei1bYA7Ow/pYlzvVwlntPEAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\levce\\source\\repos\\Astronomy\\Astronomy\\Astronomy.iOS\\Astronomy.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\levce\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

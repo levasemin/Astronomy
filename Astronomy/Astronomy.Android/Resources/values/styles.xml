@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <style name="MainTheme" parent="MainTheme.Base">
+  </style>
+  <!-- Base theme applied no matter what API -->
+  <style name="MainTheme.Base" parent="Theme.AppCompat">
+    <!--If you are using revision 22.1 please use just windowNoTitle. Without android:-->
+    <item name="windowNoTitle">true</item>
+    <!--We will be using the toolbar so no need to show ActionBar-->
+    <item name="windowActionBar">false</item>
+    <!-- Set theme colors from https://aka.ms/material-colors -->
+    <!-- colorPrimary is used for the default action bar background -->
+    <item name="colorPrimary">#2196F3</item>
+    <!-- colorPrimaryDark is used for the status bar -->
+    <item name="colorPrimaryDark">#1976D2</item>
+    <item name="android:windowBackground">@drawable/font</item>
+    <!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets -->
+    <item name="colorAccent">#FFFF</item>
+    <!-- You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight and colorSwitchThumbNormal. -->
+    <item name="windowActionModeOverlay">true</item>
+    <item name="alertDialogTheme">@style/AppCompatAlertDialogStyle</item>
+    <item name="buttonStyle">@style/button</item>
+  </style>
+
+
+  <!--AlertDialog Colors-->
+  <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+    <!--buttons-->
+    <item name="colorAccent">#fafafa</item>
+    <!--title-->
+    <item name="android:textColor">#fafafa</item>
+    <!--text-->
+    <item name="android:textColorPrimary">#fafafa</item>
+    <!--selection list-->
+    <item name="android:textColorTertiary">#fafafa</item>
+    <!--background-->
+    <item name="android:background">#7D3C98</item>
+  </style>
+  
+  <style name="button" parent="Base.Widget.AppCompat.Button">
+    <item name="android:background">#7D3C98</item>
+    <item name="android:textColor">#fafafa</item>
+  </style>
+  
+  <style name="MyLightTheme" parent="MainTheme.Base">
+    <item name="android:background">#FFFF</item>
+  </style>
+</resources>
+
